@@ -17,6 +17,6 @@
   margin: auto;
   width: 100%;
   height: 100%;
-  background: red;
+  background: #E8243A;
 }
 </style>

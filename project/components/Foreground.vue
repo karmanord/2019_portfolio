@@ -17,8 +17,9 @@
   margin: auto;
   width: 90%;
   height: 90%;
-  background: black;
+  background: #E72E3C;
   opacity: 0.3;
-  box-shadow: 10px 10px rgba(0,0,0,0.6);
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.7);
+  transform: rotate(-2deg);
 }
 </style>
