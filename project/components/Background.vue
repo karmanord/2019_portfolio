@@ -1,7 +1,5 @@
 <template>
-  <div class='container'>
-
-  </div>
+  <div class='container'></div>
 </template>
 
 <style lang='scss' scoped>
@@ -17,6 +15,7 @@
   margin: auto;
   width: 100%;
   height: 100%;
-  background: #E8243A;
+  background-color: #ece5da;
+  // background: #E8243A;
 }
 </style>
