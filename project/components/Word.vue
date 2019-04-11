@@ -24,11 +24,13 @@ export default {
                  1,
                 {
                   // x: -1000,
-                 "justify-content": "flex-start",
-                 "align-items": "flex-start",
-                 "font-size": "3vw", 
-                 "line-height": "50px",
-                 margin: "30px",
+                //  "justify-content": "flex-start",
+                //  "align-items": "flex-start",
+                //  "font-size": "3vw", 
+                //  "line-height": "50px",
+                //  margin: "30px",
+                 left: "800px",
+                 scale: 0.5,
                  delay: 5
                  }
                 );          
@@ -38,21 +40,8 @@ export default {
 <style lang='scss' scoped>
 #word {
   font-family: 'Monoton';
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
   font-size: 6vw;
-  opacity: 0,
-  // transform: scale(0);
-  // font-weight: bold;
-}
-div {
+  opacity: 0;
   text-transform: uppercase;
   display: block;
   margin: 11px 0 17px 0;
