@@ -13,7 +13,8 @@ module.exports = {
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Monoton"
+        href:
+          "https://fonts.googleapis.com/css?family=Poiret+One|Quicksand:400,500|Kosugi+Maru"
       }
     ]
   },

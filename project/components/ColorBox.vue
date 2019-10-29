@@ -1,12 +1,12 @@
 <template>
-  <div :style="{background: boxColor, height: boxHeight, width: boxWidth}"></div>
+  <div :style="{background: boxColor}"></div>
 </template>
 
 <script>
 import { TweenMax, Expo, Elastic } from "gsap";
 export default {
   name: "ColorBox",
-  props: ["boxColor", "boxHeight", "boxWidth"]
+  props: ["boxColor"]
   // data: function() {
   //   return {
   //     // boxColor: "#111111",

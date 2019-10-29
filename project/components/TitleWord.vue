@@ -1,25 +1,14 @@
 <template>
   <div>
-    <div class="font amber lighten-1 display-4">y.sasaki</div>
-    <div class="font grey lighten-4 display-4 mt-n9">portfolio</div>
+    <div class="font amber lighten-1">y.sasaki</div>
+    <div class="font grey lighten-4 mt-n9">portfolio</div>
   </div>
 </template>
 
 <script>
 import { TweenMax, Expo, Elastic } from "gsap";
 export default {
-  name: "TitleWord",
-  head() {
-    return {
-      link: [
-        {
-          rel: "stylesheet",
-          href:
-            "https://fonts.googleapis.com/css?family=Codystar|Libre+Barcode+128+Text|Poiret+One|Poller+One|Vampiro+One&display=swap"
-        }
-      ]
-    };
-  }
+  // name: "TitleWord"
   // mounted: function() {
   //   TweenMax.from("div", 1, {
   //     opacity: 0.7,
@@ -42,8 +31,7 @@ export default {
 <style lang='scss' scoped>
 .font {
   font-family: "Poiret One" !important;
-  // font-size: 30rem;
-  // font-family: "Codystar" !important;
-  // font-weight: bold;
+  font-size: 6rem;
+  line-height: 6rem;
 }
 </style>
