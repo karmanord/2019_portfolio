@@ -1,63 +1,68 @@
 <template>
   <div id="container">
-    <img id="sasaki-img" src="~/assets/images/sasaki.png" style="opacity: 0.7; height: 100%;" />
+    <img
+      id="sasaki-img"
+      src="~/assets/images/sasaki.png"
+      style="opacity: 0.7; height: 100%;"
+      class="elevation-5"
+    />
     <color-box boxColor="#37474F" id="center-box" class="elevation-5" />
     <color-box boxColor="#424242" id="right-box" class="elevation-5" />
-    <div id="profile">
-      <h2>プロフィール</h2>
+    <div id="profile" class="elevation-5">
+      <h2>Profile</h2>
       <table id="profile-table">
         <tbody>
           <tr>
-            <th>名前</th>
+            <td>Name</td>
             <td>佐々木 祐輔</td>
           </tr>
           <tr>
-            <th>職種</th>
+            <td>Job</td>
             <td>アプリケーションエンジニア</td>
           </tr>
           <tr>
-            <th>生年月日</th>
+            <td>Birth</td>
             <td>1989年9月12日（30歳）</td>
           </tr>
           <tr>
-            <th>住所</th>
+            <td>Address</td>
             <td>東京都府中市</td>
           </tr>
           <tr>
-            <th>連絡先</th>
+            <td>Mail</td>
             <td>y.sasaki.develop@gmail.com</td>
           </tr>
         </tbody>
       </table>
       <table id="account-table">
         <tr>
-          <td>
+          <td class="fly">
             <a href="https://github.com/karmanord" target="_blank">
-              <img src="~/assets/images/github.png" class="account-img" />
+              <img src="~/assets/images/github.png" class="account-img elevation-5" />
             </a>
             <p>GitHub</p>
           </td>
-          <td>
+          <td class="fly">
             <a href="https://qiita.com/karmanord" target="_blank">
-              <img src="~/assets/images/qiita.png" class="account-img" />
+              <img src="~/assets/images/qiita.png" class="account-img elevation-5" />
             </a>
             <p>Qiita</p>
           </td>
-          <td>
+          <td class="fly">
             <a href="https://atcoder.jp/users/karmanord" target="_blank">
-              <img src="~/assets/images/atcoder.png" class="account-img" />
+              <img src="~/assets/images/atcoder.png" class="account-img elevation-5" />
             </a>
             <p>Atcoder</p>
           </td>
-          <td>
+          <td class="fly">
             <a href="https://crowdworks.jp/public/employees/2041905" target="_blank">
-              <img src="~/assets/images/crowd-works.jpg" class="account-img" />
+              <img src="~/assets/images/crowd-works.png" class="account-img elevation-5" />
             </a>
             <p>CrowdWorks</p>
           </td>
-          <td>
+          <td class="fly">
             <a href="https://www.lancers.jp/profile/yuusuke_sasaki" target="_blank">
-              <img src="~/assets/images/lancers.png" class="account-img" />
+              <img src="~/assets/images/lancers.png" class="account-img elevation-5" />
             </a>
             <p>Lancers</p>
           </td>
@@ -106,28 +111,45 @@ export default {
 }
 #profile {
   position: absolute;
-  grid-row: 3;
+  grid-row: 4;
   grid-column: 5;
+  padding: 10px;
+  background: #37474f;
   z-index: 2;
-  font-family: "Quicksand", "Kosugi" !important;
-  color: white;
+  font-family: "Noto Sans JP" !important;
+  color: #fafafa;
 }
 #profile-table {
   text-align: left;
-  // font-weight: bolder;
-  font-size: 20px;
+  font-weight: bolder;
+  font-size: 16px;
 }
 #account-table {
   text-align: center;
   margin-top: 20px;
-  // position: relative;
-  // display: grid;
-  // grid-template-rows: 1;
-  // grid-template-columns: repeat(5, 90px);
+  font-size: 11px;
+  font-family: "Quicksand" !important;
+}
+td {
+  min-width: 80px;
 }
 .account-img {
   width: 60px;
   height: 60px;
   border-radius: 30%;
+}
+
+.fly {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: 10px 0 0 0;
+}
+.fly:hover {
+  -webkit-transform: translateY(-6px);
+  -ms-transform: translateY(-6px);
+  transform: translateY(-6px);
 }
 </style>

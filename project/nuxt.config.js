@@ -14,7 +14,7 @@ module.exports = {
       {
         rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css?family=Poiret+One|Quicksand:400,500|Kosugi+Maru"
+          "https://fonts.googleapis.com/css?family=Poiret+One|Quicksand:400,500|Kosugi+Maru|Noto+Sans+JP:400,900"
       }
     ]
   },
