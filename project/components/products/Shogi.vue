@@ -3,6 +3,13 @@
     <img id="shogi-img" src="~/assets/images/shogi1.jpg" style="height: 80%;" class="elevation-5" />
     <div id="shogi" class="elevation-5">
       <h2>将棋対局予定通知BOT</h2>
+      <table class="description-table">
+        <tbody>
+          <tr>
+            <td>制作期間：1週間</td>
+          </tr>
+        </tbody>
+      </table>
       <table class="description-table mt-4">
         <tbody>
           <tr>
@@ -13,7 +20,16 @@
           </tr>
           <tr>
             <td>
-              詳細は
+              誰でもメールアドレスの登録のみで
+              <a
+                href="https://qiita.com/karmanord/items/4e537abd35bc1010ad03"
+                target="_blank"
+              >チャンネル</a>に参加可能です。
+            </td>
+          </tr>
+          <tr>
+            <td>
+              本ツールの詳細は
               <a
                 href="https://qiita.com/karmanord/items/4e537abd35bc1010ad03"
                 target="_blank"
@@ -84,7 +100,7 @@ export default {
 
 #shogi {
   position: absolute;
-  grid-row: 4;
+  grid-row: 5;
   grid-column: 6;
   padding: 10px;
   background: #ffca28;
@@ -122,7 +138,7 @@ td {
 #shogi-img {
   position: absolute;
   z-index: 1;
-  grid-row: 2;
+  grid-row: 3;
   grid-column: 2;
 }
 </style>

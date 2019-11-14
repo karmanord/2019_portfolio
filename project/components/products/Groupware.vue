@@ -3,11 +3,18 @@
     <img
       id="groupware-img"
       src="~/assets/images/groupware.jpg"
-      style="width: 70%;"
+      style="width: 50%;"
       class="elevation-5"
     />
     <div id="groupware" class="elevation-5">
       <h2>グループウェア</h2>
+      <table class="description-table">
+        <tbody>
+          <tr>
+            <td>制作期間：2019年9月〜</td>
+          </tr>
+        </tbody>
+      </table>
       <table class="description-table mt-4">
         <tbody>
           <tr>
@@ -71,7 +78,7 @@ export default {
 
 #groupware {
   position: absolute;
-  grid-row: 4;
+  grid-row: 5;
   grid-column: 6;
   padding: 10px;
   background: #ffca28;

@@ -4,20 +4,27 @@
       id="portfolio2018-1-img"
       src="~/assets/images/portfolio2018-1.jpg"
       style="height: 60%;"
-      class="elevation-5"
+      class="elevation-5 mt-5"
     />
     <img
       id="portfolio2018-2-img"
       src="~/assets/images/portfolio2018-2.jpg"
       style="height: 70%;"
-      class="elevation-5"
+      class="elevation-5 ml-12 mt-5"
     />
     <div id="portfolio2018" class="elevation-5">
       <h2>ポートフォリオ(2018年版)</h2>
+      <table class="description-table">
+        <tbody>
+          <tr>
+            <td>制作期間：2日</td>
+          </tr>
+        </tbody>
+      </table>
       <table class="description-table mt-4">
         <tbody>
           <tr>
-            <td>初めて作成したポートフォリオです。TOPページをゲームボーイ風にアレンジしました。</td>
+            <td>初めて制作したポートフォリオです。TOPページをゲームボーイ風にアレンジしました。</td>
           </tr>
         </tbody>
       </table>
@@ -62,7 +69,7 @@ export default {
 
 #portfolio2018 {
   position: absolute;
-  grid-row: 4;
+  grid-row: 5;
   grid-column: 6;
   padding: 10px;
   background: #eeeeee;
@@ -107,6 +114,6 @@ td {
   position: absolute;
   z-index: 2;
   grid-row: 5;
-  grid-column: 3;
+  grid-column: 2;
 }
 </style>

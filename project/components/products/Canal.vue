@@ -1,6 +1,6 @@
 <template>
   <div id="container">
-    <img id="canal-img" src="~/assets/images/canal.jpg" style="width: 60%;" class="elevation-5" />
+    <img id="canal-img" src="~/assets/images/canal.jpg" style="width: 55%;" class="elevation-5" />
     <color-box boxColor="#37474F" id="center-box" class="elevation-5" />
 
     <div id="canal" class="elevation-5">
@@ -11,7 +11,10 @@
             <td>2017年度社内アプリコンペ優勝作品</td>
           </tr>
           <tr>
-            <td>対応OS:iOS・Android</td>
+            <td>対応OS：iOS・Android</td>
+          </tr>
+          <tr>
+            <td>制作期間：1年</td>
           </tr>
         </tbody>
       </table>
@@ -41,6 +44,10 @@
           <td>
             <img src="~/assets/images/fuelphp.jpg" class="account-img elevation-5" />
             <p>FuelPHP</p>
+          </td>
+          <td>
+            <img src="~/assets/images/centos.jpg" class="account-img elevation-5" />
+            <p>CentOS</p>
           </td>
         </tr>
       </table>
@@ -110,7 +117,7 @@ td {
 #canal-img {
   position: absolute;
   z-index: 1;
-  grid-row: 2;
+  grid-row: 3;
   grid-column: 2;
 }
 </style>

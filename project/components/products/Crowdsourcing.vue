@@ -9,13 +9,20 @@
     <!-- <img id="portfolio2018-2-img" src="~/assets/images/portfolio2018-2.jpg" style="height: 90%;" /> -->
     <div id="crowdsourcing" class="elevation-5">
       <h2>クラウドソーシング新着案件BOT</h2>
+      <table class="description-table">
+        <tbody>
+          <tr>
+            <td>制作期間：2日</td>
+          </tr>
+        </tbody>
+      </table>
       <table class="description-table mt-4">
         <tbody>
           <tr>
             <td>副業を始める際に開発しました。</td>
           </tr>
           <tr>
-            <td>クラウドソーシングサイトから案件情報を自動的に抽出します。</td>
+            <td>クラウドソーシングサイトから1分毎に新着案件を自動抽出します。</td>
           </tr>
           <tr>
             <td>お客様との迅速なコミュニケーションの助けとなりました。</td>
@@ -35,6 +42,17 @@
           <td>
             <img src="~/assets/images/cron.png" class="account-img elevation-5" />
             <p>Cron</p>
+          </td>
+          <td>
+            <img src="~/assets/images/slack.png" class="account-img elevation-5" />
+            <p>Slack</p>
+          </td>
+          <td>
+            <img src="~/assets/images/incoming-webhooks.png" class="account-img elevation-5" />
+            <p>
+              Incoming
+              <br />Webhooks
+            </p>
           </td>
         </tr>
       </table>
@@ -67,7 +85,7 @@ export default {
 
 #crowdsourcing {
   position: absolute;
-  grid-row: 4;
+  grid-row: 5;
   grid-column: 6;
   padding: 10px;
   background: #ffca28;
