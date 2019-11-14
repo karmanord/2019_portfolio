@@ -10,13 +10,20 @@ module.exports = {
       { hid: "description", name: "description", content: "Nuxt.js project" }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href: "/2019_portfolio/favicon.ico"
+      },
       {
         rel: "stylesheet",
         href:
           "https://fonts.googleapis.com/css?family=Poiret+One|Quicksand:400,500|Kosugi+Maru|Noto+Sans+JP:400,900"
       }
     ]
+  },
+  router: {
+    base: "/2019_portfolio/"
   },
   css: ["~/assets/css/default.css"],
   /*
